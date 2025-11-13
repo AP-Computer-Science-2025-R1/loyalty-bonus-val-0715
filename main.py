@@ -2,7 +2,7 @@ def temperature_fahrenheit(int_forecast_fahr):
     if int_forecast_fahr > 68:
         rain = input("Will it rain (yes/no): ")
         if rain == "yes":
-            print("Wear jeans and a sweater")
+            print("Wear jeans and a long sleeve")
             print("Bring an umbrella!")
         elif rain == "no":
             print("Wear jeans and a T-shirt")
@@ -36,7 +36,7 @@ def temperature_celsius(int_forecast_cel):
     if int_forecast_cel > 20:
         rain = input("Will it rain (yes/no): ")
         if rain == "yes":
-            print("Wear jeans and a sweater")
+            print("Wear jeans and a long sleeve")
             print("Bring an umbrella!")
         elif rain == "no":
             print("Wear jeans and a T-shirt")
